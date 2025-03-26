@@ -27,12 +27,15 @@ const addNewUser = async (req, res) => {
         bookmarks,
       ]
     );
+    console.log(newUser);
+    console.log(newUser.rows[0]);
     res.status(201).send({
       message: "Yangi foydalanuvchi qo'shildi",
       user: newUser.rows[0],
     });
   } catch (error) {
     errorHandler(error, res);
+    // console.log(error);
   }
 };
 
