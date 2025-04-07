@@ -13,6 +13,7 @@ const viewsRoute = require("./views.routes");
 const notifactionsRoute = require("./notifications.routes");
 const authorsRoute = require("./authors.routes");
 const newsTagsRoute = require("./news_tags.routes");
+const otpRoute = require("./otp.routes");
 
 router.use("/langs", langsRoute);
 router.use("/tags", tagsRoute);
@@ -28,5 +29,6 @@ router.use("/views", viewsRoute);
 router.use("/notifications", notifactionsRoute);
 router.use("/authors", authorsRoute);
 router.use("/news_tags", newsTagsRoute);
+router.use("/otp", otpRoute);
 
 module.exports = router;

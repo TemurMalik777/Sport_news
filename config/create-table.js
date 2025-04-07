@@ -69,7 +69,9 @@ const tables = [
         is_active BOOLEAN,
         created_at DATE,
         interests BIGINT, 
-        bookmarks BIGINT
+        bookmarks BIGINT,
+        phone_number VARCHAR(50),
+
     )
     `,
   `

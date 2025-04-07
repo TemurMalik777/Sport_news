@@ -1,8 +1,23 @@
 {
   "port": 3003,
   "db_host": "localhost",
+  "tokenKey": "MyVeryVerySecretKey",
+  "tokenTime": 86400,
+  "access_key": "UserAccessTokenSecretKey",
+  "refresh_key": "UserRefreshTokenSecretKey",
   "db_username": "postgres",
   "db_password": "5432",
   "db_port": 5432,
-  "db_name": "sport_news"
+  "db_name": "sport_news",
+  "expiration_minute": 3,
+  "crypt_password": "MySecretPasswordForOTP",
+  "iv": "abcd1234",
+  "smtp_password": "cceevmtaefnookbv",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "qushaqovjabor@gmail.com",
+  "api_url": "http://localhost:3006",
+
+  "SMS_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDU2ODE3NjQsImlhdCI6MTc0MzA4OTc2NCwicm9sZSI6InRlc3QiLCJzaWduIjoiZTBkNWJmYmQ2MWIxYzdmYjExNTVkNzE0NmY5ZmU0NmFjMzE4MWIzYTAzOTgwNzY1NjEzNTNkZWU4YzEyNjk2NCIsInN1YiI6IjEwMzUyIn0.BdgGWvbJEUjNeMTv0z82gc2jwwy-GhE1YDYk79XXKVs",
+  "SMS_SERVICE_URL": "https://notify.eskiz.uz/api/message/sms/send"
 }
